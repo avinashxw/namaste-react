@@ -1,0 +1,9 @@
+.moreclass {
+    color: red;
+}
+#parent{
+    color: green;
+}
+#parent-child {
+    color: blue;
+}
