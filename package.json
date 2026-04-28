@@ -1,0 +1,32 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "learning react from basics",
+  "keywords": [
+    "react",
+    "namaste-react"
+  ],
+  "homepage": "https://github.com/avinashxw/namaste-react#readme",
+  "bugs": {
+    "url": "https://github.com/avinashxw/namaste-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinashxw/namaste-react.git"
+  },
+  "license": "ISC",
+  "author": "Avinash Wadhawan",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
