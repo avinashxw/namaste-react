@@ -7,3 +7,52 @@
 #parent-child {
     color: blue;
 }
+body {
+    background-color: #ff5200;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1 {
+  font-family: Georgia, serif;
+}
+header {
+  display: flex;
+  justify-content: space-between; /* Pushes logo to left, menu to right */
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between; /* Pushes logo to left, menu to right */
+  align-items: center;
+  padding: 20px;
+  color: black;
+}
+
+nav ul {
+  list-style: none; /* Removes bullet points */
+  display: flex;
+  gap: 20px; /* Space between links */
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none; /* Removes underlines */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ddd; /* Visual feedback on hover */
+}
+
+.body-heading {
+  font-size: 48px;
+  text-align: center;
+  margin: auto;
+  font-style: bolder;
+  color: #FFF;
+  padding: 40px;
+}
