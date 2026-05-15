@@ -1,18 +1,21 @@
+import { Link } from "react-router-dom";
 import { LOGO_URL } from "../utils/constants";
 const Header = () => {
   return (
     <>
       <header>
         <div className="logo">
+            <Link to="/">
             <img src={LOGO_URL} alt="Swiggy" width="100px" />
+            </Link>
         </div>
         <nav>
           <ul>
             <li>
-              Restaurants
+              <Link to="/restaurants">Restaurants</Link>
             </li>
             <li>
-              Order Now!
+              <Link to="/order">Order Now!</Link>
             </li>
           </ul>
         </nav>

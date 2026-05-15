@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { LOGO_URL } from "../utils/constants";
+import { Link } from "react-router-dom";
 
 const CardView = (data) => {
   const {
@@ -37,11 +38,28 @@ const CardView = (data) => {
 
   return (
     <>
-      <div key={id} style={{ margin: "auto", border: "2px white solid"}}>
-        <img src={logoUrl} width="100px" height="auto" />
-        <span>{name}</span>
-        <span>{rating}</span>
+      <div key={id} className="restaurant-card">
+      <img
+        className="restaurant-image"
+        src={logoUrl} 
+      />
+
+      <div className="card-content">
+        <h2>{name}</h2>
+
+        <div className="card-info">
+          <span className="rating">⭐ {rating}</span>
+          <span className="delivery-time">{deliveryTime}</span>
+        </div>
+
+        <p className="cuisine">{cuisine.toString()}</p>
+
+        <Link to={"/restaurants/"+id}>
+          <button className="order-btn">Order Now</button>
+        </Link>
+        
       </div>
+    </div>
     </>
   );
 };

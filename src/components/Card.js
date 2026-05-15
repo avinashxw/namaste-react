@@ -14,7 +14,7 @@ offer } = restaurantsData;
 const Card = () => {
     return (
         <>
-            <div style={{display: "flex", flexWrap: "nowrap", gap: "16px", alignItems: "center", padding: "10px"}}>
+            <div className="card-container">
                 {
                     restaurantsData.map((cardData)=>(
                         <CardView key={cardData.id} data={cardData} />
