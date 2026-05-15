@@ -200,3 +200,160 @@ export const restaurantsData = [
     offer: "20% OFF"
   }
 ];
+
+export const delhiDistricts = [
+  {
+    id: 1,
+    name: "Central Delhi",
+    headquarters: "Daryaganj",
+    population: "582,320",
+    area: "25 km²",
+    pinCode: "110002",
+    famousFor: ["Red Fort", "Chandni Chowk", "Jama Masjid"],
+    metroLines: ["Yellow Line", "Violet Line"],
+    description:
+      "Central Delhi is known for its historical landmarks, markets, and old Delhi culture.",
+    image:
+      "https://images.unsplash.com/photo-1587474260584-136574528ed5",
+  },
+  {
+    id: 2,
+    name: "East Delhi",
+    headquarters: "Preet Vihar",
+    population: "1.7 Million",
+    area: "64 km²",
+    pinCode: "110092",
+    famousFor: ["Akshardham Temple", "Laxmi Nagar"],
+    metroLines: ["Blue Line", "Pink Line"],
+    description:
+      "East Delhi is a residential and commercial hub with excellent metro connectivity.",
+    image:
+      "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86",
+  },
+  {
+    id: 3,
+    name: "New Delhi",
+    headquarters: "Connaught Place",
+    population: "257,803",
+    area: "35 km²",
+    pinCode: "110001",
+    famousFor: ["India Gate", "Parliament House", "Connaught Place"],
+    metroLines: ["Yellow Line", "Blue Line"],
+    description:
+      "New Delhi is the capital region of India and home to government institutions and iconic landmarks.",
+    image:
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
+  },
+  {
+    id: 4,
+    name: "North Delhi",
+    headquarters: "Alipur",
+    population: "887,978",
+    area: "60 km²",
+    pinCode: "110036",
+    famousFor: ["Delhi University", "Majnu Ka Tila"],
+    metroLines: ["Yellow Line"],
+    description:
+      "North Delhi is famous for educational institutions and vibrant student life.",
+    image:
+      "https://images.unsplash.com/photo-1597047084897-51e81819a499",
+  },
+  {
+    id: 5,
+    name: "North East Delhi",
+    headquarters: "Nand Nagri",
+    population: "2.2 Million",
+    area: "62 km²",
+    pinCode: "110093",
+    famousFor: ["Yamuna Vihar", "Seelampur"],
+    metroLines: ["Pink Line"],
+    description:
+      "North East Delhi is densely populated and rapidly developing.",
+    image:
+      "https://images.unsplash.com/photo-1506461883276-594a12b11cf3",
+  },
+  {
+    id: 6,
+    name: "North West Delhi",
+    headquarters: "Kanjhawala",
+    population: "3.6 Million",
+    area: "440 km²",
+    pinCode: "110081",
+    famousFor: ["Rohini", "Pitampura"],
+    metroLines: ["Red Line", "Pink Line"],
+    description:
+      "North West Delhi is one of the largest districts with residential and industrial areas.",
+    image:
+      "https://images.unsplash.com/photo-1548013146-72479768bada",
+  },
+  {
+    id: 7,
+    name: "Shahdara",
+    headquarters: "Shahdara",
+    population: "540,000",
+    area: "59 km²",
+    pinCode: "110032",
+    famousFor: ["Shahdara Market", "Yamuna Sports Complex"],
+    metroLines: ["Red Line"],
+    description:
+      "Shahdara is known for traditional markets and dense residential colonies.",
+    image:
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+  },
+  {
+    id: 8,
+    name: "South Delhi",
+    headquarters: "Saket",
+    population: "2.7 Million",
+    area: "250 km²",
+    pinCode: "110017",
+    famousFor: ["Hauz Khas", "Saket", "Qutub Minar"],
+    metroLines: ["Yellow Line", "Magenta Line"],
+    description:
+      "South Delhi is known for upscale neighborhoods, malls, and nightlife.",
+    image:
+      "https://images.unsplash.com/photo-1477587458883-47145ed94245",
+  },
+  {
+    id: 9,
+    name: "South East Delhi",
+    headquarters: "Defence Colony",
+    population: "1.5 Million",
+    area: "102 km²",
+    pinCode: "110024",
+    famousFor: ["Lajpat Nagar", "Nehru Place"],
+    metroLines: ["Violet Line", "Magenta Line"],
+    description:
+      "South East Delhi combines commercial centers with premium residential areas.",
+    image:
+      "https://images.unsplash.com/photo-1502082553048-f009c37129b9",
+  },
+  {
+    id: 10,
+    name: "South West Delhi",
+    headquarters: "Kapashera",
+    population: "2.3 Million",
+    area: "421 km²",
+    pinCode: "110037",
+    famousFor: ["Dwarka", "Aerocity"],
+    metroLines: ["Blue Line", "Airport Express"],
+    description:
+      "South West Delhi includes airport zones, diplomatic areas, and modern housing sectors.",
+    image:
+      "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b",
+  },
+  {
+    id: 11,
+    name: "West Delhi",
+    headquarters: "Rajouri Garden",
+    population: "2.5 Million",
+    area: "129 km²",
+    pinCode: "110027",
+    famousFor: ["Janakpuri", "Punjabi Bagh"],
+    metroLines: ["Blue Line", "Green Line"],
+    description:
+      "West Delhi is popular for food markets, shopping, and Punjabi culture.",
+    image:
+      "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
+  },
+];
