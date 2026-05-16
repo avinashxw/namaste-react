@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card, { withPromotedLabel } from "./Card";
 
 const Restaurants = () => {
     return (

@@ -7,7 +7,7 @@ const Location = () => {
     const { locationId } = useParams();
 
     const locationInfo = useLocationInformation(locationId);
-    console.log("locationInfo: ",locationInfo)
+    //console.log("locationInfo: ",locationInfo)
 
     return (
         <>

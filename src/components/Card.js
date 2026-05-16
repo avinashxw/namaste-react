@@ -1,5 +1,5 @@
 import { restaurantsData } from "../utils/mockData.js";
-import CardView from "./CardView.js";
+import CardView, { withPromotedLabel } from "./CardView.js";
 
 const { id,
 name,
@@ -10,14 +10,20 @@ costForTwo,
 image,
 offer } = restaurantsData;
 
-
 const Card = () => {
+const CardViewPromoted = withPromotedLabel(CardView);
     return (
         <>
             <div className="card-container">
                 {
                     restaurantsData.map((cardData)=>(
-                        <CardView key={cardData.id} data={cardData} />
+                        (
+                            cardData.promoted ? (
+                                <CardViewPromoted key={cardData.id} data={cardData} />
+                            ) : (
+                                <CardView key={cardData.id} data={cardData} />
+                            )
+                        )                      
                     ))
                 }
             </div>

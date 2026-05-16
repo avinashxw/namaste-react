@@ -7,7 +7,8 @@ export const restaurantsData = [
     deliveryTime: "25 mins",
     costForTwo: "₹300 for two",
     image: "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=400&auto=format&fit=crop",
-    offer: "50% OFF up to ₹100"
+    offer: "50% OFF up to ₹100",
+    promoted: true
   },
   {
     id: "2",
@@ -17,7 +18,8 @@ export const restaurantsData = [
     deliveryTime: "30 mins",
     costForTwo: "₹400 for two",
     image: "https://images.unsplash.com/photo-1601924582975-7e13c1f53b1c?q=80&w=400&auto=format&fit=crop",
-    offer: "Buy 1 Get 1"
+    offer: "Buy 1 Get 1",
+    promoted: false
   },
   {
     id: "3",
@@ -27,7 +29,8 @@ export const restaurantsData = [
     deliveryTime: "20 mins",
     costForTwo: "₹250 for two",
     image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=400&auto=format&fit=crop",
-    offer: "20% OFF"
+    offer: "20% OFF",
+    promoted: true
   },
   {
     id: "4",
@@ -37,7 +40,8 @@ export const restaurantsData = [
     deliveryTime: "35 mins",
     costForTwo: "₹350 for two",
     image: "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?q=80&w=400&auto=format&fit=crop",
-    offer: "Flat ₹125 OFF"
+    offer: "Flat ₹125 OFF",
+    promoted: true
   },
   {
     id: "5",
@@ -47,7 +51,8 @@ export const restaurantsData = [
     deliveryTime: "28 mins",
     costForTwo: "₹400 for two",
     image: "https://images.unsplash.com/photo-1562967916-eb82221dfb92?q=80&w=400&auto=format&fit=crop",
-    offer: "Free Fries"
+    offer: "Free Fries",
+    promoted: false
   },
   {
     id: "6",
@@ -57,7 +62,8 @@ export const restaurantsData = [
     deliveryTime: "22 mins",
     costForTwo: "₹300 for two",
     image: "https://images.unsplash.com/photo-1553909489-cd47e0ef937f?q=80&w=400&auto=format&fit=crop",
-    offer: "15% OFF"
+    offer: "15% OFF",
+    promoted: false
   },
   {
     id: "7",
@@ -67,7 +73,8 @@ export const restaurantsData = [
     deliveryTime: "32 mins",
     costForTwo: "₹500 for two",
     image: "https://images.unsplash.com/photo-1594007654729-407eedc4fe24?q=80&w=400&auto=format&fit=crop",
-    offer: "30% OFF"
+    offer: "30% OFF",
+    promoted: false
   },
   {
     id: "8",
@@ -77,7 +84,8 @@ export const restaurantsData = [
     deliveryTime: "20 mins",
     costForTwo: "₹200 for two",
     image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=400&auto=format&fit=crop",
-    offer: "Free Drink"
+    offer: "Free Drink",
+    promoted: true
   },
   {
     id: "9",
@@ -87,7 +95,8 @@ export const restaurantsData = [
     deliveryTime: "40 mins",
     costForTwo: "₹600 for two",
     image: "https://images.unsplash.com/photo-1628294896516-0accb0f8d92b?q=80&w=400&auto=format&fit=crop",
-    offer: "₹150 OFF"
+    offer: "₹150 OFF",
+    promoted: true
   },
   {
     id: "10",
@@ -97,7 +106,8 @@ export const restaurantsData = [
     deliveryTime: "18 mins",
     costForTwo: "₹350 for two",
     image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=400&auto=format&fit=crop",
-    offer: "Free Coke"
+    offer: "Free Coke",
+    promoted: false
   },
   {
     id: "11",
@@ -107,7 +117,8 @@ export const restaurantsData = [
     deliveryTime: "45 mins",
     costForTwo: "₹800 for two",
     image: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?q=80&w=400&auto=format&fit=crop",
-    offer: "25% OFF"
+    offer: "25% OFF",
+    promoted: false
   },
   {
     id: "12",
@@ -117,7 +128,8 @@ export const restaurantsData = [
     deliveryTime: "27 mins",
     costForTwo: "₹250 for two",
     image: "https://images.unsplash.com/photo-1604908176997-4317c3d52f7b?q=80&w=400&auto=format&fit=crop",
-    offer: "Flat ₹100 OFF"
+    offer: "Flat ₹100 OFF",
+    promoted: true
   },
   {
     id: "13",
@@ -127,7 +139,8 @@ export const restaurantsData = [
     deliveryTime: "15 mins",
     costForTwo: "₹200 for two",
     image: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?q=80&w=400&auto=format&fit=crop",
-    offer: "10% OFF"
+    offer: "10% OFF",
+    promoted: true
   },
   {
     id: "14",
@@ -137,7 +150,8 @@ export const restaurantsData = [
     deliveryTime: "12 mins",
     costForTwo: "₹150 for two",
     image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=400&auto=format&fit=crop",
-    offer: "Free Biscuit"
+    offer: "Free Biscuit",
+    promoted: false
   },
   {
     id: "15",
@@ -147,7 +161,8 @@ export const restaurantsData = [
     deliveryTime: "20 mins",
     costForTwo: "₹300 for two",
     image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=400&auto=format&fit=crop",
-    offer: "20% OFF"
+    offer: "20% OFF",
+    promoted: false
   },
   {
     id: "16",
@@ -157,7 +172,8 @@ export const restaurantsData = [
     deliveryTime: "18 mins",
     costForTwo: "₹200 for two",
     image: "https://images.unsplash.com/photo-1604908177522-040d9b8b4b36?q=80&w=400&auto=format&fit=crop",
-    offer: "₹50 OFF"
+    offer: "₹50 OFF",
+    promoted: false
   },
   {
     id: "17",
@@ -167,7 +183,8 @@ export const restaurantsData = [
     deliveryTime: "25 mins",
     costForTwo: "₹300 for two",
     image: "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=400&auto=format&fit=crop",
-    offer: "15% OFF"
+    offer: "15% OFF",
+    promoted: false
   },
   {
     id: "18",
@@ -177,7 +194,8 @@ export const restaurantsData = [
     deliveryTime: "38 mins",
     costForTwo: "₹700 for two",
     image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=400&auto=format&fit=crop",
-    offer: "Free Dessert"
+    offer: "Free Dessert",
+    promoted: false
   },
   {
     id: "19",
@@ -187,7 +205,8 @@ export const restaurantsData = [
     deliveryTime: "22 mins",
     costForTwo: "₹250 for two",
     image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=400&auto=format&fit=crop",
-    offer: "Buy 1 Get 1"
+    offer: "Buy 1 Get 1",
+    promoted: false
   },
   {
     id: "20",
@@ -197,7 +216,8 @@ export const restaurantsData = [
     deliveryTime: "24 mins",
     costForTwo: "₹300 for two",
     image: "https://images.unsplash.com/photo-1617191517004-2c4c62e6f9d4?q=80&w=400&auto=format&fit=crop",
-    offer: "20% OFF"
+    offer: "20% OFF",
+    promoted: true
   }
 ];
 

@@ -64,4 +64,19 @@ const CardView = (data) => {
   );
 };
 
+
+
+export const withPromotedLabel = (CardView) => {
+    return (props) => {
+        return (
+            <>
+                <div>
+                    <label className="absolute bg-black text-white m-2 p-3 rounded-lg">Promoted</label>
+                    <CardView {...props} />
+                </div>
+            </>
+        )
+    }
+}
+
 export default CardView;
