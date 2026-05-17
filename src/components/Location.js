@@ -1,18 +1,25 @@
 import { useParams } from "react-router-dom";
 import { delhiDistricts } from "../utils/mockData";
 import useLocationInformation from "../utils/useLocationInformation";
+import { useState } from "react";
+import Accordian from "./Accordian";
 
 const Location = () => {
 
     const { locationId } = useParams();
 
     const locationInfo = useLocationInformation(locationId);
-    //console.log("locationInfo: ",locationInfo)
 
     return (
         <>
-            <h1>Location: {locationInfo?.name}</h1>
-            <h2>Headquaters: {locationInfo?.headquarters}</h2>
+            <div className="">
+                <div className="text-center">
+                    <p className="text-5xl font-bold text-white">{locationInfo?.name}</p>
+                    <p className="text-4xl mt-4">Headquaters: {locationInfo?.headquarters}</p>
+                </div>
+                
+                <Accordian locationInfo={locationInfo} />
+            </div>
         </>
     );
 };
