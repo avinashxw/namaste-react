@@ -10,15 +10,26 @@ import Error from "./components/Error";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import RestaurantPage from "./components/RestaurantPage";
 import Location from "./components/Location";
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
+import { useContext } from "react";
+import UserContext from "./utils/UserContext";
+import Cart from "./components/Cart";
 
 const Grocery = lazy(() => import("./components/Grocery"));
 
 const AppLayout = () => {
+
+  const { loggedInUser } = useContext(UserContext);
   return (
     <>
-      <Header />
-      <Outlet />
-      <Footer />
+      <Provider store={appStore}>
+        <UserContext.Provider value={{ loggedInUser: "Avinash" }}>
+          <Header />
+          <Outlet />
+          <Footer />
+        </UserContext.Provider>
+      </Provider>
     </>
   );
 };
@@ -42,15 +53,23 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/restaurants/:resId",
-        element: <RestaurantPage />
+        element: <RestaurantPage />,
       },
       {
         path: "/location/:locationId",
-        element: <Location />
+        element: <Location />,
       },
       {
         path: "/grocery",
-        element: <Suspense fallback={<h3>loading...</h3>}><Grocery /></Suspense>
+        element: (
+          <Suspense fallback={<h3>loading...</h3>}>
+            <Grocery />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/cart",
+        element: <Cart />
       }
     ],
     errorElement: <Error />,
